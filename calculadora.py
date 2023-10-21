@@ -13,11 +13,13 @@ def calculadora():
         print( num1, " - ", num2, " = ", resultado)
       elif(operador == 3):
         resultado = num1 * num2
-        print( num1, " * ", num2, " = ", resultado)4
+        print( num1, " * ", num2, " = ", resultado)
         
       elif(operador == 4):
         resultado = num1 / num2
         print(num1, " / ", num2, " = ", resultado)
+       else: 
+        print("A calculadora foi encerrada por erros nas informações digitadas.")
     except:
       print("Por favor digite um número válido!")
 
